@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // The following configurations is recommended
+    // when using Node type stripping
+    // https://nodejs.org/api/typescript.html#type-stripping
+    "noEmit": true,
+    "target": "esnext",
+    "module": "nodenext",
+    "rewriteRelativeImportExtensions": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true
+  }
+}
