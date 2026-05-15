@@ -13,12 +13,15 @@ This "Edge" version uses the latest tools and Node.js features.
 
 ## How to use
 
-Use the command to [`giget`][giget] download the latest commit. You can include the `--install` flag to install dependencies after cloning.
+Use the command to [`giget`][giget] download the latest commit.
 
 ```sh
 npx giget gh:ralacerda/typescript-template-edge new-project-name
+```
 
-# Or
+You can include the `--install` flag to install dependencies after cloning.
+
+```sh
 npx giget --install gh:ralacerda/typescript-template-edge new-project-name
 ```
 
